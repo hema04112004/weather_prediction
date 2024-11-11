@@ -1,0 +1,138 @@
+/* Weatherapp.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0063B2FF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    width: 90%;
+    max-width: 600px;
+    background: rgb(142, 178, 195);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2c2929;
+    margin-bottom: 20px;
+  }
+  
+  .tab-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #100f0f;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.current-tab {
+    background-color: #3b92da;
+    color: rgb(22, 20, 20);
+  }
+  
+  .weather-container {
+    margin-top: 20px;
+  }
+  
+  .sub-container {
+    display: none;
+  }
+  
+  .sub-container.active {
+    display: block;
+  }
+  
+  .grant-location-container {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: #57a3e1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #64819d;
+  }
+  
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loading-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .user-info-container {
+    margin: 20px 0;
+  }
+  
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .name img {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .parameter-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .parameter {
+    text-align: center;
+  }
+  
+  .parameter img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #b26a6a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #333; /* Change text color to dark gray */
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #2196f3;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+  
+ 
